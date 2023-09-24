@@ -1,0 +1,20 @@
+### React JS 3 ###
+update the list using an input field and add button. Should have a delete button. Show some message when there are no todos
+add login. if the user is not logged in, they should be redirected to login page. The user should be able to add/delete todo only after login
+This assignment is add on over the previous assignment. i.e. You have to use localStorage as well
+
+Tasks:
+1) Refer documentation of covered topics and provide list/examples of topics not covered
+2) Explore serve and github pages
+3) Explore useMemo
+4) Resolve the issue in below piece of code:
+const App = () => {
+  const data = [1, 3, 2];
+  return (
+    <>
+      {data.map((element) => {
+        <p>{element}</p>;
+      })}
+    </>
+  );
+};
